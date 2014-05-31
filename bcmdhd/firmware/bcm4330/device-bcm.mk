@@ -27,7 +27,7 @@ BCM_FW_SRC_FILE_P2P := fw_bcm4330_p2p_abg.bin
 endif
 
 PRODUCT_COPY_FILES += \
-    hardware/broadcom/wlan/bcmdhd/firmware/bcm4330/$(BCM_FW_SRC_FILE_STA):system/vendor/firmware/fw_bcmdhd.bin \
-    hardware/broadcom/wlan/bcmdhd/firmware/bcm4330/$(BCM_FW_SRC_FILE_AP):system/vendor/firmware/fw_bcmdhd_apsta.bin \
-    hardware/broadcom/wlan/bcmdhd/firmware/bcm4330/$(BCM_FW_SRC_FILE_P2P):system/vendor/firmware/fw_bcmdhd_p2p.bin
+    hardware/broadcom/wlan/bcmdhd/firmware/bcm4330/$(BCM_FW_SRC_FILE_STA):system/etc/firmware/fw_bcmdhd.bin \
+    hardware/broadcom/wlan/bcmdhd/firmware/bcm4330/$(BCM_FW_SRC_FILE_AP):system/etc/firmware/fw_bcmdhd_apsta.bin \
+    hardware/broadcom/wlan/bcmdhd/firmware/bcm4330/$(BCM_FW_SRC_FILE_P2P):system/etc/firmware/fw_bcmdhd_p2p.bin
 ########################
